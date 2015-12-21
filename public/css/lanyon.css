@@ -41,15 +41,29 @@ body {
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  /*font-family: "PT Serif", Georgia, "Times New Roman", serif;*/
+  font-family: "Open Sans", "PT Serif", Georgia, "Times New Roman", serif;
 }
+
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  color: #313131;
-  letter-spacing: -.025rem;
+  font-weight: 700;
+  color: #333333;
+
 }
+
+h2, h3 {
+  padding: 1em 0em 0.75em 0em;
+  font-family: "Exo 2";
+}
+h4, h5 {
+  padding: 0.25em 0em 0.25em 0em;
+  font-family: "Exo 2";
+}
+
+
 
 
 /*
@@ -105,6 +119,16 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
+  font-family: "Exo 2";
+  font-size: 1.75em;
+  font-weight: 800;
+}
+h3.masthead-title
+{
+  font-weight: 700;
+  color: #313131;
+  letter-spacing: -.025rem;
+  padding: 0px;
 }
 .masthead-title a {
   color: #505050;
@@ -159,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 30em) {
   .sidebar {
-    font-size: .75rem; /* 14px */
+    font-size: 1rem; /* 14px */
   }
 }
 
@@ -318,7 +342,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #333333;
 }
 .page-title,
 .post-title {
