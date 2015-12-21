@@ -6,7 +6,7 @@ relative_permalinks: true
 
 # Setup
 title:               Indrome 
-tagline:             'Statistics, stochastics, mathematics and algorithms in no particular order'
+tagline:             ''
 description:         ''
 url:                 http://indrome.com
 baseurl:             ''
